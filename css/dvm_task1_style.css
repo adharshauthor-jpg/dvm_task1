@@ -211,3 +211,16 @@ a{
 a.down-links1:hover{
     background-color:orange;
 }
+.Mascot{
+    margin-top:100px;
+    max-width:100%;
+    height:auto;
+}
+.UFO{
+    margin-top:200px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:75vh;
+    transform:translateX(80%);
+}
