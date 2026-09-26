@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.Top-Bar{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    border:2px solid #1f1633;
+    background-color: #1f1633;
+}
+.Top-Bar1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    background-color: #1f1633;
+    color:white;
+    font-family:"Rubik";
+    position:sticky;
+    /* border:2px solid #1f1633;
+    border: width 100px; */
+    padding-left:160px;
+    padding-top: 2px;
+    padding-bottom:2px;
+}
+a.g1{
+    text-decoration:none;
+    color:white;
+    font-weight: 400;
+    font-size: 2.0rem;
+    /* border:2px solid #1f1633; */
+    /* padding-left:160px; */
+}
+.Top-Bar2{
+    background-color: #1f1633;
+    color:white;
+    font-family:"Rubik";
+    position:sticky;
+    /* border:2px solid #1f1633;
+    border: width 100px; */
+    padding-left:20px;
+    padding-top: 2px;
+    padding-bottom:2px;
+}
+a.g2{
+    text-decoration:none;
+    color:white;
+    font-weight: 400;
+    font-size: 1.0rem;
+    /* border:2px solid #1f1633; */
+    /* padding-left:160px; */
+}
+a.g2:hover{
+    border:2px solid #6a5fc1;
+    border-radius: 5px;
+    padding-left:5px;
+    padding-right:5px;
+    background-color: #6a5fc1;
+}
+.Top-Bar3{
+    background-color: #1f1633;
+    color:white;
+    font-family:"Rubik";
+    position:sticky;
+    /* border:2px solid #1f1633;
+    border: width 100px; */
+}
+.Top-Links{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 48px;
+    list-style-type:none;
+    font-family:"Rubik";
+    font-size:0.5rem;
+    justify-content:space-between;
+}
+.Top-Links1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    list-style-type:none;
+    font-family:"Rubik";
+    font-size:0.5rem;
+    /* padding-left:800px; */
+    
+}
+a.g3{
+    text-decoration:none;
+    color:white;
+    font-weight: 400;
+    font-size: 1.0rem;
+    /* border:2px solid #1f1633; */
+    /* padding-left:160px; */
+    border:2px solid orange;
+    border-radius: 5px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+a.g3:hover{
+    background-color: orange;
+
+}
+a.g4{
+    text-decoration:none;
+    color:black;
+    font-weight: 400;
+    font-size: 1.0rem;
+    /* border:2px solid #1f1633; */
+    /* padding-left:160px; */
+    border:2px solid white;
+    background-color:white;
+    border-radius: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:4px;
+    padding-bottom:4px;
+}
