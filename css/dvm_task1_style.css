@@ -152,6 +152,7 @@ body{
     margin-top:40px;
     color:white;
     font-family:Rubik;
+    letter-spacing:1px;
 }
 .SubText{
     color:white;
@@ -223,4 +224,44 @@ a.down-links1:hover{
     justify-content:center;
     height:75vh;
     transform:translateX(80%);
+}
+.Pink{
+    color:#fd44b0;
+    font-size:4.0rem;
+    font-family: Rubik;
+    padding-left:10%;
+    letter-spacing:1px;
+}
+.Title{
+    font-size:4.0rem;
+    color:white;
+    font-family: Rubik;
+    padding-left:10%;
+    padding-top:30%;
+    letter-spacing:1px;
+}
+.flexypic{
+    padding-left: 10%;
+    padding-top:5%;
+}
+.Top-headings{
+    padding-top:2%;
+    padding-left:10%;
+    color:white;
+    font-family:Rubik;
+    display:flex;
+    flex-direction:rows;
+    gap:35%;
+    list-style-type:none;
+    font-size:25px;;
+}
+.Top-Body{
+    display:flex;
+    flex-direction: row;
+    color:white;
+    font-family:Rubrik;
+    gap:10%;
+    padding-left:10%;
+    padding-top:1%;
+    list-style-type: none;
 }
