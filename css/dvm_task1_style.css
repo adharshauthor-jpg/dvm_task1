@@ -15,7 +15,7 @@
     width:100%;
     top:0;
     left:0;
-    z-axis:2;
+    z-index:100;
 }
 .Top-Bar1{
     display: flex;
@@ -30,6 +30,9 @@
     padding-left:130px;
     padding-top: 2px;
     padding-bottom:2px;
+}
+.logo_chain{
+    margin-left:120px;
 }
 a.g1{
     text-decoration:none;
