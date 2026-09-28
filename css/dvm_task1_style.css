@@ -382,7 +382,6 @@ a.hidden-link{
     cursor:pointer;
 }
 input[type="radio"]{
-    cursor:pointer;
     padding-left:120px;
 }
 .tricky_part1{
@@ -397,7 +396,7 @@ input[type="radio"]{
     left:0;
     margin-top:5%;
 }
-#Radio1:checked ~.stack #img1A,
+/* #Radio1:checked ~.stack #img1A,
 #Radio2:checked ~.stack #img2A
 #Radio3:checked ~.stack #img3A{
     opacity:1;
@@ -407,8 +406,8 @@ input[type="radio"]{
 #Radio2:checked ~.flexusage:nth-child(2),
 #Radio3:checked ~.flexusage:nth-child(3){
     opacity:1;
-}
-#img1A{
+} */
+/* #img1A{
     opacity:0;
 }
 #img2A{
@@ -416,24 +415,45 @@ input[type="radio"]{
 }
 #img3A{
     opacity:0;
+} */
+.stack {
+    position: relative;
+    width: 500px;
+    height: 500px;
 }
-#Radio1:checked ~ .stack #img1A{
+
+.stack img {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+/* Default image */
+#Radio1:checked ~ .stack #img1A {
+    opacity: 1;
+}
+#Radio1:checked ~.flexusage_ka_bhai .flexusage:nth-child(1){
     opacity:1;
 }
-#Radio1:checked ~.flexusage:nth-child(1) {
-  opacity: 1;
-}
-#Radio2:checked ~ .stack #img2A{
+#Radio2:checked ~.flexusage_ka_bhai .flexusage:nth-child(2){
     opacity:1;
 }
-#Radio2:checked ~.flexusage:nth-child(2) {
-  opacity: 1;
-}
-#Radio3:checked ~.stack #img3A{
+#Radio3:checked ~.flexusage_ka_bhai .flexusage:nth-child(3){
     opacity:1;
 }
-#Radio3:checked ~.flexusage:nth-child(3) {
-  opacity: 1;
+
+#Radio2:checked ~ .stack #img2A {
+    opacity: 1;
+}
+
+#Radio3:checked ~ .stack #img3A {
+    opacity: 1;
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+    display: none;
 }
 .drop-down-menu{
     
@@ -531,4 +551,55 @@ a.blinky{
 }
 a.blinky:hover{
     background-color:orange;
+}
+.flexusage_ki_maa{
+    display:flex;
+    flex-direction:row;
+    gap:100px;
+    margin-left:20px;
+}
+.stack1 {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.stack1 img {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+#Radio4:checked ~ .stack1 #img1B {
+    opacity: 1;
+}
+#Radio4:checked ~.flexusage_ka_bhai1 .flexusage1:nth-child(1){
+    opacity:1;
+}
+#Radio5:checked ~.flexusage_ka_bhai1 .flexusage1:nth-child(2){
+    opacity:1;
+}
+#Radio6:checked ~.flexusage_ka_bhai1 .flexusage1:nth-child(3){
+    opacity:1;
+}
+
+#Radio5:checked ~ .stack1 #img2B {
+    opacity: 1;
+}
+
+#Radio6:checked ~ .stack1 #img3B {
+    opacity: 1;
+}
+.flexusage1{
+    display:flex;
+    flex-direction:row;
+    padding-left:120px;
+    padding-top:5%;
+    color:white;
+    opacity:0.4;
+    font-family:Rubik;
+    font-size:1.5rem;
+    gap:5px;
+    align-items:center;
+    cursor:pointer;
 }
