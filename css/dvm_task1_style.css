@@ -152,7 +152,7 @@ body{
 .Banner{
     display:flex;
     flex-direction:row;
-    gap:400px;
+    gap:300px;
     font-size:3.0rem;
     padding-left:130px;
     margin-top:40px;
@@ -160,6 +160,14 @@ body{
     font-family:Rubik;
     letter-spacing:1px;
 }
+/* .Pink-Banner{
+    font-size:3.0rem;
+    padding-left:130px;
+    margin-top:40px;
+    color:#fd44b0;
+    font-family:Rubik;
+    letter-spacing:1px;
+} */
 .SubText{
     color:white;
     font-family:Rubik;
@@ -359,4 +367,66 @@ a.hidden-link{
     margin-left:10%;
     margin-top:5%;
     margin-bottom:1%;
+}
+.flexusage{
+    display:flex;
+    flex-direction:row;
+    padding-left:120px;
+    padding-top:5%;
+    color:white;
+    opacity:0.4;
+    font-family:Rubik;
+    font-size:1.5rem;
+    gap:5px;
+    align-items:center;
+    cursor:pointer;
+}
+input[type="radio"]{
+    display:none;
+    cursor:pointer;
+}
+.tricky_part1{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    gap:10%;
+}
+.stack{
+    position:relative;
+    top:0;
+    left:0;
+    margin-top:5%;
+}
+#img1A{
+    opacity:0;
+    visibility:hidden;
+}
+#img2A{
+    opacity:0;
+    visibility:hidden;
+}
+#img3A{
+    opacity:0;
+    visibility:hidden;
+}
+#Radio1:checked ~ .stack #img1A{
+    opacity:1;
+    visibility:visible;
+}
+#Radio1:checked ~ .flexusage_ki_maa .flexusage:nth-child(1) {
+  opacity: 1;
+}
+#Radio2:checked ~ .stack #img2A{
+    opacity:1;
+    visibility:visible;
+}
+#Radio2:checked ~ .flexusage_ki_maa .flexusage:nth-child(2) {
+  opacity: 1;
+}
+#Radio3:checked ~ .stack #img3A{
+    opacity:1;
+    visibility:visible;
+}
+#Radio3:checked ~ .flexusage_ki_maa .flexusage:nth-child(3) {
+  opacity: 1;
 }
