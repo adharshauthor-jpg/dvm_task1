@@ -493,3 +493,42 @@ input[type="checkbox"]{
     padding-top:50px;
 
 }
+.flex-father{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+.flex-son{
+    margin-top:50px;
+    border:2px solid white;
+    background-color:white;
+    color:#6a5fc1;
+    border-radius:5px;
+    margin-left:140px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    font-family:Rubik;
+    
+}
+a.linky{
+    text-decoration: none;
+    color:#6a5fc1
+}
+.flex-daughter{
+    margin-top:57px;
+}
+a.blinky{
+    border:2px solid orange;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:5px;
+    font-family:Rubik;
+}
+a.blinky:hover{
+    background-color:orange;
+}
