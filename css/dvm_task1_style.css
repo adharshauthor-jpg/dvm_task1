@@ -486,7 +486,6 @@ input[type="radio"] {
     
     font-family:Rubik;
     text-align:center;
-    z-axis:2;
     border:2px solid #362d59;
     background-color:#362d59;
     margin-left:40%;
@@ -497,7 +496,6 @@ input[type="radio"] {
     margin-top:10%;
     font-family:Rubik;
     text-align:center;
-    z-axis:2;
     border:2px solid #362d59;
     background-color:#362d59;
     margin-left:40%;
