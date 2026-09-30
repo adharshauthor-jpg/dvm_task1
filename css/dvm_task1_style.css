@@ -641,12 +641,12 @@ a.blinky:hover{
 a.g9{
     text-decoration: underline;
 }
-.flexysmallquotes{
+ .flexysmallquotes{
     display:flex;
     flex-direction:row;
     gap:5px;
 }
-.zesty-quotes{
+ .zesty-quotes{
     display:flex;
     flex-direction:row;
     align-items: center;
@@ -675,4 +675,31 @@ a.g9{
     margin-left:100px;
     gap:40px;
     margin-top:100px;
+}
+.grid-usage{
+    margin-top:20%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content:center;
+    gap:20px;
+    place-items:center;
+}
+.small-pink{
+    color:#fd44b0;
+    font-family:"Rubik";
+
+}
+.bottom-grid{
+    font-family:"Rubik";
+    color:white;
+}
+a.bottom-grid:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.mid-column{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items: center;
 }
