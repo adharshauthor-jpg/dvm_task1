@@ -174,7 +174,7 @@ body{
     margin-right:20%;
     margin-top:40px;
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     letter-spacing:1px;
 }
 /* .Pink-Banner{
@@ -187,7 +187,7 @@ body{
 } */
 .SubText{
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size:1.5rem;
     margin-left:20%;
     margin-right:20%;
@@ -200,7 +200,7 @@ body{
     flex-direction:row;
     gap:20px;
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size:1.0rem;
     text-align:center;
     padding-top:30px;
@@ -210,7 +210,7 @@ body{
     flex-direction:row;
     gap:30px;
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size:1.0rem;
     text-align:center;
     padding-left:42%;
@@ -231,11 +231,11 @@ body{
 }
 .Title-small{
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
 }
 .Title-smaller{
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
 }
 a.down-links1{
     border:2px solid orange;
@@ -279,14 +279,14 @@ a.down-links1:hover{
 .Pink{
     color:#fd44b0;
     font-size:4.0rem;
-    font-family: Rubik;
+    font-family: "Rubik";
     padding-left:10%;
     letter-spacing:1px;
 }
 .Title{
     font-size:4.0rem;
     color:white;
-    font-family: Rubik;
+    font-family: "Rubik";
     padding-left:10%;
     padding-top:30%;
     letter-spacing:1px;
@@ -299,7 +299,7 @@ a.down-links1:hover{
     padding-top:2%;
     padding-left:10%;
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     display:flex;
     flex-direction:rows;
     gap:35%;
@@ -317,7 +317,7 @@ a.down-links1:hover{
 }  */
 .Top-Body1{
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size:1rem;
     margin-top:1%;
     margin-left: 10%;
@@ -325,7 +325,7 @@ a.down-links1:hover{
 }
 .Top-Body2{
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size:1rem;
     transform:translateX(59%);
     margin-top:-1.2%;
@@ -337,7 +337,7 @@ a.g5{
 }
 .Top-Body3{
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size:1rem;
     transform:translateX(59%);
     margin-top:-4%;
@@ -349,14 +349,14 @@ a.g5{
 .Title1{
     font-size:4.0rem;
     color:white;
-    font-family: Rubik;
+    font-family: "Rubik";
     padding-left:10%;
     padding-top:10%;
     letter-spacing:1px;
 }
 .SubText1{
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     padding-left:10%;
     padding-top:2%;
     line-height:1.6;
@@ -365,7 +365,7 @@ a.g5{
 }
 .c1{
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size:1.5rem;
     text-align:left;
     line-height:1.6;
@@ -389,7 +389,7 @@ a.hidden-link{
     gap:7%;
     align-items:top;
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     padding-left:10%;
     font-size:1.2rem;
     line-height:1.3;
@@ -412,7 +412,7 @@ a.hidden-link{
     padding-top:5%;
     color:white;
     opacity:0.4;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size:1.5rem;
     gap:5px;
     align-items:center;
@@ -494,7 +494,7 @@ input[type="radio"] {
 }
 .drop-down-menu{
     
-    font-family:Rubik;
+    font-family:"Rubik";
     text-align:center;
     border:2px solid #362d59;
     background-color:#362d59;
@@ -504,7 +504,7 @@ input[type="radio"] {
 }
 .drop-down{
     margin-top:10%;
-    font-family:Rubik;
+    font-family:"Rubik";
     text-align:center;
     border:2px solid #362d59;
     background-color:#362d59;
@@ -528,7 +528,7 @@ input[type="checkbox"]{
 }
 .small_subtext{
     text-align:center;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size:0.75rem;
     font-weight:300;
     color:white;
@@ -539,7 +539,7 @@ input[type="checkbox"]{
     padding-top:50px;
     line-height:1.6;
     color:white;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size: 1.2rem;
     font-weight:100px;
 }
@@ -564,7 +564,7 @@ input[type="checkbox"]{
     padding-bottom:5px;
     padding-left:10px;
     padding-right:10px;
-    font-family:Rubik;
+    font-family:"Rubik";
     
 }
 a.linky{
@@ -582,7 +582,7 @@ a.blinky{
     padding-left:10px;
     padding-right:10px;
     border-radius:5px;
-    font-family:Rubik;
+    font-family:"Rubik";
 }
 a.blinky:hover{
     background-color:orange;
@@ -632,7 +632,7 @@ a.blinky:hover{
     padding-top:5%;
     color:white;
     opacity:0.4;
-    font-family:Rubik;
+    font-family:"Rubik";
     font-size:1.5rem;
     gap:5px;
     align-items:center;
