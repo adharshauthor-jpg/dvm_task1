@@ -979,6 +979,14 @@ a.Pink-Banner:hover{
     margin-top:5%;
     margin-left:10%;
 }
+.sub-grid{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    align-items:top;
+    text-align:center;
+    justify-content:top;
+}
 
 @media screen and (max-width: 768px) {
     html, body {
@@ -1093,6 +1101,8 @@ a.g4{
         flex-direction:column;
         margin-left:2%;
         margin-right:2%;
+        text-align:center;
+        gap:5%;
      }
      .cutiepic{
         width:100%;
