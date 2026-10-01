@@ -963,3 +963,221 @@ a.Pink-Banner:hover{
         transform:translateX(0px);
     }
 }
+.area1{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-top:5%;
+    color:white;
+    font-family:"Rubik";
+    
+}
+.Area{
+    display:flex;
+    flex-direction:row;
+    gap:10%;
+    margin-top:5%;
+    margin-left:10%;
+}
+
+@media screen and (max-width: 768px) {
+    html, body {
+        width=100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  /* overflow-x: hidden !important; */
+}
+a.g1{
+    font-size:1.5rem;
+}
+a.g2{
+        display:none;
+    }
+a.g3{
+    display:none;
+}
+a.g4{
+    display:none;
+}
+.Top-Bar {
+        flex-direction: row;
+        gap:0.5%;
+        align-items: center;
+        margin-top:2%;
+        margin-left:1%;
+        font-size: 0.5rem;
+        width:390px;
+        max-width:768px;
+    }
+    .menubar{
+        display:initial;
+        visibility:visible;
+        border:2px solid white;
+        background-color:white;
+        color:#1f1633;
+        border-radius:5px;
+        font-family:"Rubik";
+        font-size:small;
+    }
+    .Top-Bar3 {
+        flex-direction: row;
+        align-items: center;
+        padding-left: 5%;
+        font-size: 0.5rem;
+    }
+    .Top-Links {
+        flex-direction: row;
+        gap: 10px;
+        display:hidden;
+    }
+    .Pop-up-ki-ma{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    .UFO-ki-ma{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    .Pop-up {
+        font-size: 0.8rem;
+        padding: 5px;
+        margin-left:5%;
+        margin-right:5%;
+        justify-content:center;
+        align-items:center;
+
+    }
+    .Banner{
+        margin-left:15%;
+        padding:0;
+        font-size:0.8rem;
+        text-align:center;
+    }
+    .SubText{
+        font-size:0.8rem;
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .links1{
+        font-size:small;
+        margin-left:-30%;
+    }
+    .Mascot{
+        width:100%;
+        overflow-x:hidden;
+    }
+ /*    .UFO{
+        margin-left:-10%;
+        overflow-x:hidden;
+    } */
+     .Title{
+        font-size:2rem;
+        margin-left:2%;
+     }
+     #special{
+        margin-top:40%;
+     }
+     .Pink{
+        font-size:2rem;
+     }
+     .Area{
+        display:flex;
+        flex-direction:column;
+        margin-left:2%;
+        margin-right:2%;
+     }
+     .cutiepic{
+        width:100%;
+     }
+     .Title1{
+        font-size:2rem;
+     }
+     .SubText1{
+        font-size:0.8rem;
+        margin-left:2%;
+        margin-right:2%;
+     }
+     .flexusage_ki_maa{
+        display:flex;
+        flex-direction:column;
+        margin-left:-20%;
+     }
+     .stack{
+        width:80%;
+        height:auto;
+        margin-left:20%;
+        margin-top:-15%;
+     }
+     .stack1{
+        width:80%;
+        height:auto;
+        margin-left:20%;
+        margin-top:-15%;
+     }
+     .zesty-flex{
+        display:flex;
+        flex-direction:column;
+        margin-left:2%;
+        margin-right:2%;
+        margin-top:5%;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+     }
+     .zesty-quotes{
+        align-items:center;
+        justify-content:center;
+     }
+     .really-special{
+        margin-top:20%;
+     }
+     .drop-down{
+        margin-left:auto;
+        margin-right:auto;
+     }
+     .drop-down-menu{
+        margin-left:auto;
+        margin-right:auto;
+     }
+     .cheetah{
+        margin:10%;
+        text-align:center;
+        padding:0;
+     }
+     .logo-column{
+        width:100%;
+        margin:0;
+        padding:0;
+     }
+     .flex-father{
+        flex-direction:column;
+        margin-left:auto;
+        margin-right:auto;
+        align-items:center;
+        text-align:center;
+     }
+     .flex-son{
+        margin-left:auto;
+        margin-right:auto;
+     }
+     .final-img{
+        width:100%;
+        height:auto;
+        margin-left:auto;
+        margin-right:auto;
+     }
+     .grid-usage{
+        grid-template-columns: 1fr;
+        margin-left:auto;
+        margin-right:auto;
+     }
+
+}
