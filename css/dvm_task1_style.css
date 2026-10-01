@@ -766,7 +766,7 @@ a.Pink-Banner:hover{
         transform:translateX(720px);
     }
     80%{
-        transform:translateX(960px);
+        transform:translateX(960ox);
     }
     85%{
         transform:translateX(960px);
@@ -1189,5 +1189,13 @@ a.g4{
         margin-left:auto;
         margin-right:auto;
      }
+
+    .UFO{
+        transform:translateX(-10%);
+        width:80%;
+        max-width:300px;
+        height:auto;
+        margin-left:auto;
+    }
 
 }
